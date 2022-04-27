@@ -5,7 +5,7 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 public class Processo {
     
-    Reserva reserva = new Reserva(Cliente, boolean.class);
+    Reserva reserva = new Reserva();
 
     public static String screen() {
 		String aux = "Escolha uma opção:\n";
@@ -18,6 +18,26 @@ public class Processo {
 		return aux;
 		
 	}
+
+    public static void reservar() {
+
+    }
+
+    public static void pesquisar() {
+
+    }
+
+    public static void imprimirRe() {
+
+    }
+
+    public static void imprimirLi() {
+
+    }
+
+    public static void cancelar() {
+        
+    }
 
 
 }
