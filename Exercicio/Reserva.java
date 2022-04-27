@@ -2,8 +2,8 @@ package Exercicio;
 
 public class Reserva implements Pagamento{
 
-    private boolean pagamentoAVista;
-    private Cliente cliente;
+    boolean pagamentoAVista;
+    Cliente cliente;
     
     public Reserva(Cliente cliente, boolean pagamentoAVista) {
       this.cliente = cliente;
