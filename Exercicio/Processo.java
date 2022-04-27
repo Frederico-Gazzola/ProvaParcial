@@ -5,7 +5,7 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 public class Processo {
     
-    Reserva reserva = new Reserva();
+    
 
     public static String screen() {
 		String aux = "Escolha uma opção:\n";

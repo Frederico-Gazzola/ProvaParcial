@@ -2,7 +2,8 @@ package Exercicio;
 
 public abstract class Cliente {
   
-    private String nome;
+    Cliente cliente;
+    String nome;
   
     public Cliente(String nome) {
       this.nome = nome;
