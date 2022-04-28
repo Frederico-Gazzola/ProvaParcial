@@ -1,8 +1,7 @@
 package Exercicio;
 
 public abstract class Cliente {
-  
-    Cliente cliente;
+    
     String nome;
   
     public Cliente(String nome) {
